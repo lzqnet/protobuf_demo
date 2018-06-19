@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/zhiqing/work/fortest/protobuf_demo/app/src/main/assets"><file name="address_book.file" path="/Users/zhiqing/work/fortest/protobuf_demo/app/src/main/assets/address_book.file"/></source><source path="/Users/zhiqing/work/fortest/protobuf_demo/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/zhiqing/work/fortest/protobuf_demo/app/src/debug/assets"/></dataSet></merger>

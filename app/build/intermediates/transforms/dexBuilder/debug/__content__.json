@@ -1,0 +1,1 @@
+[{"name":"com.google.protobuf:protobuf-java:2.4.1","index":0,"scopes":["EXTERNAL_LIBRARIES"],"types":["DEX_ARCHIVE"],"format":"JAR","present":true},{"name":"570e0ece810fee30fc18b3d727e73306dcf38bec","index":1,"scopes":["PROJECT"],"types":["DEX_ARCHIVE"],"format":"DIRECTORY","present":true}]

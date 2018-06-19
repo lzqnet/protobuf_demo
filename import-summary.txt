@@ -1,0 +1,113 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/android-protobuf-example.iml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* LICENSE
+* README.markdown
+* proguard.cfg
+* proto/
+* proto/addressbook.proto
+* studio/
+* studio/.idea/
+* studio/.idea/.name
+* studio/.idea/misc.xml
+* studio/.idea/workspace.xml
+* studio/app/
+* studio/app/build.gradle
+* studio/app/src/
+* studio/app/src/main/
+* studio/app/src/main/AndroidManifest.xml
+* studio/app/src/main/assets/
+* studio/app/src/main/assets/address_book.file
+* studio/app/src/main/java/
+* studio/app/src/main/java/com/
+* studio/app/src/main/java/com/example/
+* studio/app/src/main/java/com/example/android/
+* studio/app/src/main/java/com/example/android/AddressBookActivity.java
+* studio/app/src/main/java/com/example/android/PersonActivity.java
+* studio/app/src/main/java/com/example/tutorial/
+* studio/app/src/main/java/com/example/tutorial/AddressBookProtos.java
+* studio/app/src/main/res/
+* studio/app/src/main/res/drawable-hdpi/
+* studio/app/src/main/res/drawable-hdpi/icon.png
+* studio/app/src/main/res/drawable-ldpi/
+* studio/app/src/main/res/drawable-ldpi/icon.png
+* studio/app/src/main/res/drawable-mdpi/
+* studio/app/src/main/res/drawable-mdpi/icon.png
+* studio/app/src/main/res/layout/
+* studio/app/src/main/res/layout/person.xml
+* studio/app/src/main/res/layout/phone_number.xml
+* studio/app/src/main/res/menu/
+* studio/app/src/main/res/menu/menu.xml
+* studio/app/src/main/res/values/
+* studio/app/src/main/res/values/strings.xml
+* studio/build.gradle
+* studio/gradle/
+* studio/gradle/wrapper/
+* studio/gradle/wrapper/gradle-wrapper.jar
+* studio/gradle/wrapper/gradle-wrapper.properties
+* studio/gradlew
+* studio/gradlew.bat
+* studio/local.properties
+* studio/settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+protobuf-java-2.4.1.jar => com.google.protobuf:protobuf-java:2.4.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+protobuf-java-2.4.1.jar => version 2.4.1 in com.google.protobuf:protobuf-java:2.4.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
